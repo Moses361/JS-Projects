@@ -1,0 +1,1 @@
+JS project to demonstrate use of javascript concepts
