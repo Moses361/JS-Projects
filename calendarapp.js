@@ -22,10 +22,10 @@ let events = [
 
 // Function to add a new attendee to an event
 function addAttendeeToEvent(eventTitle, attendeeName) {
-    // Find the event with the given title
+    // finding the event with the given title
     let event = events.find(event => event.title === eventTitle);
 
-    // If the event is found, add the attendee to its attendees
+    // if the event is found, add the attendee to its attendees
     if (event) {
         event.attendees.add(attendeeName);
         console.log(`${attendeeName} has been successfully added to the event "${eventTitle}".`);
